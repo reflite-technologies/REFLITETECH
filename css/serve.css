@@ -1,0 +1,31 @@
+.services .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    gap: 0.8rem;
+    margin-top: 5rem;
+}
+.services .row .box{
+    text-align: center;
+    color: black;
+    padding: 4rem;
+    border-radius: 0.08rem;
+}
+.services .row .box:hover{
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    background: #eee;
+}
+.services .row .box i{
+    font-size: 5rem;
+}
+.services .row .box h5{
+    font-size: 5rem;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+}
+.services .row .box p{
+    font-size: 2rem;
+}
+
+body{
+    background: purple;
+}

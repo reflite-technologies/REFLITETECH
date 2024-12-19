@@ -65,15 +65,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     .subcontainer{
         width: 100%;
         height: fit-content;
+        display: block;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        
     }
-    p{
-        width: 100%;
+    #class{
+        border: none;
+        align-content: center;
+        justify-self: center;
+        position: relative;
+        margin-left: px;
     }
-    img{
-        display: none;
-    }
+    
 }
 
 

@@ -69,6 +69,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        
     }
+    p{
+        width: 100%;
+    }
     #class{
         border: none;
         align-content: center;

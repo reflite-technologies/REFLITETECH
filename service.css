@@ -1,0 +1,87 @@
+
+
+.head{
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+}
+.subhead{
+    color: rgb(26, 96, 245);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    
+
+}
+.subcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.subcont{
+width: 50%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subcontainer1{
+    width: 50%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prof{
+    height: 180px; 
+    justify-self: center;
+    align-items: center;
+    
+    animation: bounce 5s linear infinite;
+    animation-delay: 0.50s;
+}
+#class{
+    border: none;
+    align-content: center;
+    justify-self: center;
+    position: relative;
+    height: 350px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+@media  screen and (max-width: 1050px) {
+    .prof{
+        height: 150px;  
+    }
+}
+
+@media  screen and (max-width: 750px) {
+   
+    .subcontainer{
+        width: 100%;
+        height: fit-content;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+@keyframes bounce {
+    0% {transform: translateX(0%);}
+    50%{transform: translateX(30%);}
+
+    0% {transform: translateY(0%);}
+    50%{transform: translateY(10%);}
+}
